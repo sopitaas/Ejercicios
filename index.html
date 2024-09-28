@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rutina de Estiramientos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Ejercicio para tu dolor de espalda, amor</h1>
+        <p>Si alguno de estos ejericios, te duelen. Para. Escucha a tu cuerpo, preciosa. Te recomiendo hacerlos en la mañana y antes de dormir, porfis</p>
+
+        <!-- Ejercicio 1: Estiramiento del niño -->
+        <div class="exercise-section">
+            <h2>1. Estiramiento del niño</h2>
+            <img src="child_pose.jpg" alt="Estiramiento del niño">
+            <p>Duración: 30-60 segundos. Siéntate sobre los talones y extiende los brazos hacia adelante, llevando el torso hacia el suelo.</p>
+            <button onclick="startTimer(60, 1)">Iniciar 60 segundos</button>
+            <div id="timer1" class="timer"></div>
+        </div>
+
+        <!-- Ejercicio 2: Rodillas al pecho -->
+        <div class="exercise-section">
+            <h2>2. Rodillas al pecho</h2>
+            <img src="knees_to_chest.jpg" alt="Rodillas al pecho">
+            <p>Duración: 30 segundos por cada pierna. Acuéstate boca arriba y lleva una rodilla hacia el pecho.</p>
+            <button onclick="startTimer(30, 2)">Iniciar 30 segundos</button>
+            <div id="timer2" class="timer"></div>
+        </div>
+
+        <!-- Ejercicio 3: Giro espinal supino -->
+        <div class="exercise-section">
+            <h2>3. Giro espinal supino</h2>
+            <img src="spinal_twist.jpg" alt="Giro espinal supino">
+            <p>Duración: 30 segundos por cada lado. Acuéstate boca arriba y lleva una rodilla doblada sobre la otra pierna.</p>
+            <button onclick="startTimer(30, 3)">Iniciar 30 segundos</button>
+            <div id="timer3" class="timer"></div>
+        </div>
+
+        <!-- Ejercicio 4: Puente de glúteos -->
+        <div class="exercise-section">
+            <h2>4. Puente de glúteos</h2>
+            <img src="glute_bridge.jpg" alt="Puente de glúteos">
+            <p>Duración: 30 segundos. Acuéstate boca arriba, con las rodillas flexionadas y los pies apoyados en el suelo. Eleva las caderas hacia el techo.</p>
+            <button onclick="startTimer(30, 4)">Iniciar 30 segundos</button>
+            <div id="timer4" class="timer"></div>
+        </div>
+
+        <!-- Ejercicio 5: Gato-vaca -->
+        <div class="exercise-section">
+            <h2>5. Gato-vaca</h2>
+            <img src="cat_cow.jpg" alt="Gato-vaca">
+            <p>Duración: 60 segundos. Colócate en posición de cuatro patas, alternando entre arquear y encorvar la espalda.</p>
+            <button onclick="startTimer(60, 5)">Iniciar 60 segundos</button>
+            <div id="timer5" class="timer"></div>
+        </div>
+
+        <!-- Ejercicio 6: Perro boca abajo -->
+        <div class="exercise-section">
+            <h2>6. Perro boca abajo</h2>
+            <img src="downward_dog.jpg" alt="Perro boca abajo">
+            <p>Duración: 30-60 segundos. Colócate en una posición de V invertida, estirando los brazos y las piernas.</p>
+            <button onclick="startTimer(60, 6)">Iniciar 60 segundos</button>
+            <div id="timer6" class="timer"></div>
+        </div>
+
+        <!-- Ejercicio 7: Estiramiento de cuádriceps -->
+        <div class="exercise-section">
+            <h2>7. Estiramiento de cuádriceps</h2>
+            <img src="quad_stretch.jpg" alt="Estiramiento de cuádriceps">
+            <p>Duración: 30 segundos por cada pierna. Ponte de pie y dobla una rodilla hacia atrás, sujetando el pie con la mano.</p>
+            <button onclick="startTimer(30, 7)">Iniciar 30 segundos</button>
+            <div id="timer7" class="timer"></div>
+        </div>
+
+        <!-- Ejercicio 8: Estiramiento del psoas -->
+        <div class="exercise-section">
+            <h2>8. Estiramiento del psoas</h2>
+            <img src="psoas_stretch.jpg" alt="Estiramiento del psoas">
+            <p>Duración: 30 segundos por cada lado. Da un paso largo hacia adelante y baja la rodilla trasera hacia el suelo.</p>
+            <button onclick="startTimer(30, 8)">Iniciar 30 segundos</button>
+            <div id="timer8" class="timer"></div>
+        </div>
+
+        <!-- Ejercicio 9: Estiramiento de isquiotibiales -->
+        <div class="exercise-section">
+            <h2>9. Estiramiento de isquiotibiales</h2>
+            <img src="hamstring_stretch.jpg" alt="Estiramiento de isquiotibiales">
+            <p>Duración: 30-60 segundos. Siéntate en el suelo con las piernas extendidas e inclínate hacia adelante.</p>
+            <button onclick="startTimer(60, 9)">Iniciar 60 segundos</button>
+            <div id="timer9" class="timer"></div>
+        </div>
+
+        <!-- Ejercicio 10: Plancha -->
+        <div class="exercise-section">
+            <h2>10. Plancha</h2>
+            <img src="plank.jpg" alt="Plancha">
+            <p>Duración: 30-60 segundos. Colócate boca abajo y eleva tu cuerpo apoyándote en los antebrazos y las puntas de los pies.</p>
+            <button onclick="startTimer(60, 10)">Iniciar 60 segundos</button>
+            <div id="timer10" class="timer"></div>
+        </div>
+        <div class="motivation">
+            <h2>LO HICISTE GENIAL AMOOOOR</h2>
+            <p>Recuerda que cada pequeño paso cuenta. Estás fortaleciendo tu cuerpo y cuidando de ti misma, por favor sigue haciendolo.</p>
+        </div>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>

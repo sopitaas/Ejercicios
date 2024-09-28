@@ -1,0 +1,95 @@
+/* Configuración básica y estilo de contenedor */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    padding: 2vw; /* Se ajusta en base al ancho de la ventana */
+}
+
+.container {
+    max-width: 90vw; /* Usar ancho de ventana para adaptabilidad */
+    margin: 0 auto;
+    background-color: white;
+    padding: 2rem; /* Unidades relativas para mantener escalabilidad */
+    border-radius: 1rem;
+    box-shadow: 0px 0px 1rem rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 1rem;
+    font-size: 2rem; /* Tamaño relativo */
+}
+
+p {
+    text-align: justify;
+    color: #555;
+    margin-bottom: 1rem;
+    line-height: 1.5;
+    font-size: 1rem; /* Escalable con tamaño relativo */
+}
+
+.exercise-section {
+    margin-bottom: 2rem; /* Espacio inferior */
+    border-bottom: 0.1rem solid #ddd;
+    padding-bottom: 1.5rem;
+}
+
+/* Ajuste de imágenes para ser responsive */
+img {
+    width: 100%; /* Ocupa el ancho completo de su contenedor */
+    max-width: 20rem; /* Tamaño máximo */
+    height: auto; /* Mantener proporción */
+    display: block;
+    margin: 0 auto;
+}
+
+/* Estilo de botones */
+button {
+    display: block;
+    width: 100%; /* Ocupa todo el ancho del contenedor */
+    max-width: 15rem; /* Limitar ancho máximo */
+    margin: 1rem auto;
+    padding: 1rem; /* Espaciado relativo */
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    font-size: 1.2rem; /* Tamaño relativo para escalabilidad */
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Temporizador */
+.timer {
+    text-align: center;
+    font-size: 2rem;
+    color: #333;
+    margin-top: 0.5rem;
+}
+
+/* Sección de motivación */
+.motivation {
+    text-align: center;
+    margin-top: 2rem;
+    background-color: #e3f2fd;
+    padding: 2rem;
+    border-radius: 1rem;
+    font-size: 1.2rem; /* Tamaño escalable */
+}
+
+/* Ajuste general */
+@media (hover: hover) {
+    * {
+        scroll-behavior: smooth;
+    }
+}
